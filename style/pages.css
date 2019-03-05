@@ -1,0 +1,170 @@
+#about {
+    width:75%;
+    background-color: rgba(21, 181, 139, 0.85);
+    height:auto;
+    border-radius:25px;
+    padding:25px;
+    display:flex;
+    flex-direction: row;
+    color:#fff;
+}
+
+#about div {
+    min-width:200px;
+    min-height:200px;
+    padding-bottom:25px;
+}
+
+#about div:first-child {
+    margin-right:25px;
+}
+
+#about div h1 {
+    margin-top:0px;
+}
+
+#about img {
+    width:200px;
+    height:200px;
+    border-radius:100px;
+    border:3px solid white;
+    margin-right:25px;
+}
+
+#projects {
+    width:75%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+#projects a {
+    color:#fff;
+    text-decoration:none;
+}
+
+#project a:visited {
+    color:#fff;
+}
+
+#projects .project {
+    width:100%;
+    border-radius:25px;
+    margin-top:50px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    padding:15px;
+}
+
+#projects .twitchue {
+    background-color: rgba(112,76,232,0.85);
+}
+
+#projects .twitchue:hover {
+    background-color: rgba(146,78,250,0.85);
+    border:3px solid white;
+}
+
+#projects .optic {
+    background-color: rgba(93, 119, 255, 0.85);
+}
+
+#projects .optic:hover {
+    background-color: rgba(127,153,255,0.85);
+    border:3px solid white;
+}
+
+#projects .project img {
+    width:200px;
+    height:200px;
+}
+
+#projects .project div {
+    vertical-align: center;
+    color:#fff;
+    /* font-size:20px; */
+}
+
+#projects .project div:last-child {
+    margin-left:50px;
+}
+
+#resume {
+    width:50%;
+    background-color:rgba(112,76,232,0.85);
+    color:#fff;
+    margin:auto;
+    padding:25px;
+    border-radius:25px;
+    text-align:center;
+}
+
+#resume img {
+    width:100px;
+    height:100px;
+}
+
+#resume #links {
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align:left;
+}
+
+#resume #links div:last-child {
+    margin-left:25px;
+}
+
+#resume #links ul {
+    padding:0px;
+    list-style-type: none;
+}
+
+#resume #links li {
+    margin-top:15px;
+}
+
+#resume #links a {
+    color:#fff;
+}
+
+#social {
+    width:75%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#social a {
+    text-decoration:none;
+    color:#fff;
+    width: auto;
+    height: auto;
+}
+
+#social div {
+    background-color:rgba(93, 119, 255, 0.85);
+    border-radius: 25px;
+    width:200px;
+    height:200px;
+    margin-left:50px;
+    margin-right:50px;
+    text-align:center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#social div:hover {
+    background-color:rgba(127,153,255,0.85);
+    border:3px solid white;
+}
+
+#social div img {
+    width:150px;
+}
