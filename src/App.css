@@ -1,0 +1,22 @@
+/* Color Theme Swatches in Hex */
+.To-Teal-1-hex { color: #45214A; }
+.To-Teal-2-hex { color: #323050; }
+.To-Teal-3-hex { color: #21445B; }
+.To-Teal-4-hex { color: #1A6566; }
+.To-Teal-5-hex { color: #5D8A66; }
+.Stormy { color: #494e6b;}
+.Cloud { color: #98878f;}
+.Sunset { color: #985e6d;}
+.Evening { color: #192231; }
+
+.bx {
+  color: #fff;
+}
+
+.App {
+  text-align: center;
+  background-color: #192231;
+  display: flex;
+  justify-content: space-between;
+}
+

@@ -1,0 +1,66 @@
+
+  .About .intro {
+    width:65%;
+    background-color:#985e6d;
+    padding:20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+  }
+  
+  .About .intro .intro-text {
+    width:45%;
+    text-align: left;
+    line-height: 1.5;
+  }
+  
+  .About .intro .charts {
+    width: 45%;
+  }
+
+  .About .intro .charts .chart {
+    text-align:left;
+    margin-bottom:15px;
+  }
+
+  .About .bar {
+    width: 100%;
+    height:10px;
+    margin-left: auto;
+    margin-top:5px;
+    border:1px solid white;
+    border-radius:3px;
+  }
+
+  .About .bar .percentage {
+    width:90%;
+    height:100%;
+    background-color:#fff;
+  }
+
+  #se-percentage {
+    width:95%;
+  }
+
+  #devops-percentage {
+    width:80%;
+  }
+
+  #sre-percentage {
+    width:75%;
+  }
+
+  .About .dog {
+    width:15%;
+    margin-top:auto;
+    margin-bottom:auto;
+  }
+
+  .About .dog img {
+    width:100%;
+    border-radius:50%;
+    border:3px solid white;
+    margin-bottom:10px;
+  }
