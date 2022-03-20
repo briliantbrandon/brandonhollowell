@@ -16,19 +16,28 @@ class About extends React.Component {
                         </div>
                         <div className="charts">
                             <div className="chart">
-                                <div className="label">Software Engineer</div>
+                                <div className="label">
+                                    Software Engineer
+                                    <div className="label-percentage">95%</div>
+                                </div>
                                 <div className="bar">
                                     <div className="percentage" id="se-percentage"></div>
                                 </div>
                             </div>
                             <div className="chart">
-                                <div className="label">DevOps</div>
+                                <div className="label">
+                                    DevOps
+                                    <div className="label-percentage">80%</div>
+                                </div>
                                 <div className="bar">
                                     <div className="percentage" id="devops-percentage"></div>
                                 </div>
                             </div>
                             <div className="chart">
-                                <div className="label">Site Reliability Engineering</div>
+                                <div className="label">
+                                    Site Reliability Engineering
+                                    <div className="label-percentage">75%</div>
+                                </div>
                                 <div className="bar">
                                     <div className="percentage" id="sre-percentage"></div>
                                 </div>

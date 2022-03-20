@@ -9,11 +9,18 @@ class Sidebar extends React.Component {
             open: true,
             current: 'Home'
         }
+        this.myRefs = this.props.myRefs;
+        console.log(this.myRefs);
     }
 
     toggleOpen() {
         this.setState({open: !this.state.open})
         console.log(this.state.open)
+    }
+
+    moveTo(e, location) {
+        e.preventDefault();
+        window.location.replace('/' + location);
     }
 
     render() {
@@ -25,12 +32,25 @@ class Sidebar extends React.Component {
                     </div>
                     <div className="Sidebar-Navigation">
                         <ul>
-                            <li><i class='bx bx-home'></i>home</li>
-                            <li><i class='bx bxs-user'></i>about</li>
-                            <li><i class='bx bx-desktop'></i>projects</li>
-                            <li><i class='bx bx-note'></i>resume</li>
-                            <li><i class='bx bx-paper-plane'></i>contact</li>
+                            <li onClick={(e) => {this.moveTo(e, "#home")}}>
+                                <i className='bx bx-home'></i>home
+                            </li>
+                            <li onClick={(e) => {this.moveTo(e, "#about")}}>
+                                <i className='bx bxs-user'></i>about
+                            </li>
+                            <li onClick={(e) => {this.moveTo(e, "#projects")}}>
+                                <i className='bx bx-desktop'></i>projects
+                            </li>
+                            <li onClick={(e) => {this.moveTo(e, "#resume")}}>
+                                <i className='bx bx-note'></i>resume
+                            </li>
+                            <li onClick={(e) => {this.moveTo(e, "#contact")}}>
+                                <i className='bx bx-paper-plane'></i>contact
+                            </li>
                         </ul>
+                    </div>
+                    <div className="copyright">
+                    &copy;2022 Brandon Hollowell
                     </div>
                 </div>
             )

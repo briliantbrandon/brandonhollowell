@@ -5,7 +5,7 @@ import './home.css';
 class Home extends React.Component {
     render() {
         return (
-            <div className="Content-Section Home">
+            <div className="Content-Section Home" id="home">
                 <div className="Home-photo">
                     <img src={pfp} alt="author smiling"/>
                 </div>
@@ -13,10 +13,10 @@ class Home extends React.Component {
                     Brandon Hollowell
                 </div>
                 <div className="Home-socials">
-                    <i class="bx bxl-twitter"></i>
-                    <i class="bx bxl-instagram"></i>
-                    <i class="bx bxl-twitch"></i>
-                    <i class="bx bxl-linkedin"></i>
+                    <i className="bx bxl-twitter"></i>
+                    <i className="bx bxl-instagram"></i>
+                    <i className="bx bxl-twitch"></i>
+                    <i className="bx bxl-linkedin"></i>
                 </div>
             </div>
         )

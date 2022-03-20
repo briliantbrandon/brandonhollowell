@@ -54,3 +54,13 @@
   .Sidebar li:hover {
       filter: drop-shadow(2px -2px 1px #985e6d);
   }
+
+  .Sidebar .copyright {
+    position: fixed;
+    bottom:1vh;
+    left:0;
+    width:100%;
+    text-align:center;
+    font-size:10pt;
+    color:#98878f;
+  }

@@ -22,7 +22,11 @@
 
   .About .intro .charts .chart {
     text-align:left;
-    margin-bottom:15px;
+    margin-bottom:25px;
+  }
+
+  .About .intro .chart .label-percentage {
+    float:right;
   }
 
   .About .bar {

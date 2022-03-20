@@ -1,20 +1,29 @@
 import React from "react";
 import Home from '../sections/home/home';
 import About from '../sections/about/about';
-import Projects from "../sections/projects/projects";
+import Projects from '../sections/projects/projects';
+import Resume from '../sections/resume/resume';
+import Contact from '../sections/contact/contact';
 import './content.css';
 
 class Content extends React.Component {
+    constructor(props) {
+        super(props);
+        this.myRefs = props.myRefs;
+    }
+
     render() {
         return (
             <div className="Content">
-                <Home />
+                <Home ref={this.myRefs.home} />
                 <div className="Scroll">
                     Scroll Down!<br /><br />
-                    <i class='bx bx-down-arrow-circle bx-md'></i>
+                    <i className='bx bx-down-arrow-circle bx-md'></i>
                 </div>
-                <About />
-                <Projects />
+                <About ref={this.myRefs.about} />
+                <Projects ref={this.myRefs.projectse} />
+                <Resume ref={this.myRefs.resume} />
+                <Contact ref={this.myRefs.contact} />
             </div>
         )
     }

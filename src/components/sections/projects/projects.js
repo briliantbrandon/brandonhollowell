@@ -6,7 +6,11 @@ class Projects extends React.Component {
         return (
             <div className="Content-Section" id="projects">
                 <div className="section-header">Projects</div>
-                <div className="section-content"></div>
+                <div className="section-content">
+                    <div className="project"></div>
+                    <div className="project"></div>
+                    <div className="project"></div>
+                </div>
             </div>
         )
     }
