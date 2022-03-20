@@ -7,23 +7,25 @@ import Contact from '../sections/contact/contact';
 import './content.css';
 
 class Content extends React.Component {
-    constructor(props) {
-        super(props);
-        this.myRefs = props.myRefs;
+
+    scrollTo(e, selector) {
+        e.preventDefault()
+        const selection = document.querySelector(selector);
+        selection.scrollIntoView({behavior: 'smooth', block: 'start'})
     }
 
     render() {
         return (
             <div className="Content">
-                <Home ref={this.myRefs.home} />
-                <div className="Scroll">
+                <Home />
+                <div className="Scroll" onClick={(e) => {this.scrollTo(e, "#about")}}>
                     Scroll Down!<br /><br />
                     <i className='bx bx-down-arrow-circle bx-md'></i>
                 </div>
-                <About ref={this.myRefs.about} />
-                <Projects ref={this.myRefs.projectse} />
-                <Resume ref={this.myRefs.resume} />
-                <Contact ref={this.myRefs.contact} />
+                <About />
+                <Projects />
+                <Resume />
+                <Contact />
             </div>
         )
     }

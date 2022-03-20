@@ -53,6 +53,7 @@
   
   .Sidebar li:hover {
       filter: drop-shadow(2px -2px 1px #985e6d);
+      cursor: pointer;
   }
 
   .Sidebar .copyright {
